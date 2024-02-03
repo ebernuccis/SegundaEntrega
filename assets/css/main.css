@@ -1,17 +1,58 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 4 | @import "_galeria";
- *   |         ^^^^^^^^^^
- *   '
- *   assets\scss\main.scss 4:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 4 \2502  @import \"_galeria\";\d\a   \2502          ^^^^^^^^^^\a   \2575 \a   assets\\scss\\main.scss 4:9  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap");
+* {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
 }
+
+h1,
+h2,
+h3 {
+  font-family: "Nunito", sans-serif;
+  color: deeppink;
+  font-weight: 600;
+}
+
+p {
+  color: rgba(128, 128, 128, 0.2);
+  line-height: 1.6em;
+  font-size: 1em;
+}
+
+/* Menu*/
+.menu {
+  background-color: deeppink;
+  padding: 8px 30px;
+}
+.menu svg {
+  width: 30px;
+  fill: rgb(244, 238, 238);
+}
+.menu .navbar-toggler {
+  border: solid white 1px;
+}
+.menu img {
+  width: 180px;
+}
+@media (width <= 320px) {
+  .menu img {
+    width: 140px;
+  }
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+.menu ul li {
+  margin-right: 20px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.menu ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
