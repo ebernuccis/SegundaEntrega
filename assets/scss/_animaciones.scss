@@ -1,0 +1,19 @@
+// Animaciones
+@keyframes backgrounds{
+    0%{background-image: url(../img/headers/ti-3.jpg);}
+    25%{background-image: url(../img/headers/header.jpg);}
+    50%{background-image: url(../img/headers/ti-3.jpg);}
+    75%{background-image: url(../img/headers/header.jpg);}
+    100%{background-image: url(../img/headers/ti-3.jpg);}
+    
+}
+
+.header-animated{
+    height: 65vh;
+    background-size: cover;
+    animation-name: backgrounds;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+}

@@ -27,6 +27,10 @@ h1,h2{
   gap: 1rem;
   grid-auto-flow: row dense;
 }
+.grid-gallery__image img{
+  background-image: linear-gradient(to top ,pink,deeppink);
+}
+
 
 @media all and (min-width: 320px) {
   .grid-gallery {
