@@ -31,7 +31,7 @@ p {
   border: solid white 1px;
 }
 .menu img {
-  width: 180px;
+  width: 60px;
 }
 @media (width <= 320px) {
   .menu img {

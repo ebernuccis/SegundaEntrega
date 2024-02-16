@@ -36,3 +36,16 @@ p{
     line-height: $lg;
     font-size: $md;
 }
+footer{
+    background-color:$mainColor;
+}
+    footer ul{
+        list-style:none;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    footer img{
+        width: 50px;
+    }
